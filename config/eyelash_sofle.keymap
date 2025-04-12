@@ -103,7 +103,7 @@
 
         layer_2 {
             bindings = <
-&bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4         &mmv MOVE_UP     &kp F21     &kp F22     &kp F23    &kp F24   &bt BT_CLR_ALL   &trans
+&bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4         &mmv MOVE_UP     &kp F21     &kp F21     &kp F22    &kp F23   &kp F24       &bt BT_CLR_ALL
 &trans        &trans        &kp MINUS    &kp PLUS      &kp EQUAL         &kp UNDER            &mmv MOVE_DOWN   &trans      &trans      &kp UP     &trans    &kp UNDER     &kp PLUS
 &trans     &out OUT_USB  &out OUT_BLE    &trans        &kp LPAR          &kp RPAR             &mmv MOVE_LEFT   &trans      &kp LEFT    &kp DOWN    &kp RIGHT     &kp LBRC     &kp RBRC
 &trans     &sys_reset    &trans          &bootloader   &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &mmv MOVE_RIGHT  &trans      &trans  &sys_reset  &soft_off  &bootloader  &trans
