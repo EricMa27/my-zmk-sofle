@@ -44,9 +44,9 @@
             bindings = <
 &kp ESC     &kp N1          &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp BACKSPACE
 &kp TAB     &kp Q           &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
-&kp CAPS    &kp A           &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
+&kp LSHIFT  &kp A           &kp S         &kp D         &kp F   &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
 &kp LCTRL   &kp Z           &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
-&kp C_MUTE  &kp LSHFT       &kp LEFT_GUI  &kp LALT      &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &mo 2      &kp RIGHT_SHIFT  &kp RCTRL  &kp DELETE
+&kp C_MUTE  &kp CAPS        &kp LEFT_GUI  &kp LALT      &mo 1   &kp SPACE    &kp ENTER        &kp SPACE  &mo 2      &kp RIGHT_SHIFT  &kp RCTRL  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -104,9 +104,9 @@
         layer_2 {
             bindings = <
 &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4         &mmv MOVE_UP     &kp F21     &kp F21     &kp F22    &kp F23   &kp F24       &bt BT_CLR_ALL
-&trans        &trans        &kp MINUS    &kp PLUS      &kp EQUAL         &kp UNDER            &mmv MOVE_DOWN   &trans      &trans      &kp UP     &trans    &kp UNDER     &kp PLUS
+&bootloader   &trans        &kp MINUS    &kp PLUS      &kp EQUAL         &kp UNDER            &mmv MOVE_DOWN   &trans      &trans      &kp UP     &trans    &kp UNDER     &kp PLUS
 &trans     &trans        &kp LPAR        &kp RPAR      &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &mmv MOVE_LEFT   &trans      &kp LEFT    &kp DOWN    &kp RIGHT     &kp LBRC     &kp RBRC
-&trans     &sys_reset    &trans          &bootloader   &kp LBRC          &kp RBRC             &mmv MOVE_RIGHT  &out OUT_USB  &out OUT_BLE  &sys_reset  &soft_off  &bootloader  &trans
+&trans     &sys_reset    &trans          &trans        &kp LBRC          &kp RBRC             &mmv MOVE_RIGHT  &out OUT_USB  &out OUT_BLE  &sys_reset  &soft_off  &bootloader  &trans
 &trans     &trans        &trans          &trans        &trans            &trans               &mkp LCLK        &trans        &trans  &trans      &trans     &trans
             >;
 
