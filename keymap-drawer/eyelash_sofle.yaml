@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - '2'
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
+  - F20
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -87,16 +87,16 @@ layers:
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
-  - END
-  - $$mdi:arrow-up-bold$$
   - HOME
+  - $$mdi:arrow-up-bold$$
+  - END
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
-  - $$mdi:arrow-left-bold$$
+  - UNDO
   - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - REDO
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
@@ -139,10 +139,10 @@ layers:
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F21
-  - F21
   - F22
   - F23
   - F24
+  - F25
   - BT CLR ALL
   - $$mdi:progress-download$$
   - '>'
@@ -152,7 +152,7 @@ layers:
   - _
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&¯o_ctrl_alt_left'
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - _
