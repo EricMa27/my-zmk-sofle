@@ -142,7 +142,7 @@ layers:
   - F22
   - F23
   - F24
-  - F25
+  - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
   - $$mdi:progress-download$$
   - '>'
@@ -152,9 +152,9 @@ layers:
   - _
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&¯o_ctrl_alt_left'
+  - Ctl+Alt+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+$$mdi:arrow-right-bold$$
   - _
   - +
   - {t: '$$mdi:transfer$$', type: trans}
