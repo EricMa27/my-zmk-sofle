@@ -29,22 +29,6 @@
 
 
 / {
-    // Add this macro behavior definition
-    behaviors {
-        macro_ctrl_alt_left: macro_ctrl_alt_left {
-            compatible = "zmk,behavior-macro";
-            label = "MACRO_CTRL_ALT_LEFT";
-            #binding-cells = <0>;
-            bindings
-                = <¯o_press &kp LCTRL>
-                , <¯o_press &kp LALT>
-                , <¯o_tap &kp LEFT>
-                , <¯o_release &kp LALT>
-                , <¯o_release &kp LCTRL>
-                ;
-        };
-    };
-
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
