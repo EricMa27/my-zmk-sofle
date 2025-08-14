@@ -202,7 +202,7 @@ layers:
   - F13
   - F14
   - F15
-  - '&trnas'
+  - {t: '$$mdi:transfer$$', type: trans}
   - F16
   - F17
   - F18
