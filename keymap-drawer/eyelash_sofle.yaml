@@ -245,8 +245,8 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - trans
-  - trans
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
