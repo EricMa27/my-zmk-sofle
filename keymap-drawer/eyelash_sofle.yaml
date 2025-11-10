@@ -207,7 +207,7 @@ layers:
   - F17
   - F18
   - F19
-  - KP NUMLOCK
+  - KP NUM
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
